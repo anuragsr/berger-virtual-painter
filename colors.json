@@ -1,0 +1,136 @@
+{
+	"companycolors" : [
+		{ 
+			"name" : "Gloss",
+			"colors": [
+				{ "name": "Solt White", "code": "01", "rgbColor":{"r":255, "g":254, "b":228} },
+				{ "name": "Off White", "code": "4046", "rgbColor":{"r": 254, "g":242, "b": 213} },
+				{ "name": "Shadow", "code": "045", "rgbColor":{"r":213, "g": 218, "b": 214} },
+				{ "name": "Magnolia", "code": "08 B 15", "rgbColor":{"r": 253, "g": 236, "b": 208} },
+				{ "name": "Cream", "code": "3040", "rgbColor":{"r":253, "g":238, "b":196} },
+				{ "name": "Sahara", "code": "08 C 31", "rgbColor":{"r":255, "g":252, "b":195} },
+				{ "name": "Lemon Yellow", "code": "2836", "rgbColor":{"r":255, "g":250, "b":154} },
+				{ "name": "Lavender", "code": "02", "rgbColor":{"r":248, "g":247, "b":247} },
+				{ "name": "Lilac", "code": "06", "rgbColor":{"r":182, "g":181, "b":211} },
+				{ "name": "Raw Silk", "code": "184", "rgbColor":{"r":240, "g":232, "b":154} },
+				{ "name": "Rich Cream", "code": "218", "rgbColor":{"r":207, "g":182, "b":114} },
+				{ "name": "Sunset Coral", "code": "2839", "rgbColor":{"r":246, "g":197, "b":154} },
+				{ "name": "Pale Mushroom", "code": "3035", "rgbColor":{"r":223, "g":214, "b": 187} },
+				{ "name": "Beige", "code": "115", "rgbColor":{"r":159, "g":152, "b":143} },
+				{ "name": "Golden Brown", "code": "357", "rgbColor":{"r":74, "g":37, "b":34} },
+				{ "name": "Rose Pink", "code": "1020", "rgbColor":{"r":217, "g":160, "b":163} },
+				{ "name": "Summer Rose", "code": "468", "rgbColor":{"r":183, "g":110, "b":126} },
+				{ "name": "Signal Red", "code": "527", "rgbColor":{"r":117, "g":36, "b":34} },
+				{ "name": "Post Office Red", "code": "0006", "rgbColor":{"r":87, "g":30, "b":34} },
+				{ "name": "Cherry", "code": "04 D 45", "rgbColor":{"r":54, "g":23, "b":26} },
+				{ "name": "Tango", "code": "06 E 51", "rgbColor":{"r":184, "g":92, "b":46} },
+				{ "name": "Lemon", "code": "185", "rgbColor":{"r":230, "g":162, "b":0} },
+				{ "name": "Golden Yellow", "code": "0003", "rgbColor":{"r":184, "g":128, "b":39} },
+				{ "name": "Caterpilar", "code": "356", "rgbColor":{"r":100, "g":80, "b":46} },
+				{ "name": "Light Green", "code": "6070", "rgbColor":{"r":141, "g":202, "b":141} },
+				{ "name": "Leaf Green", "code": "6071", "rgbColor":{"r":85, "g":136, "b":78} },
+				{ "name": "National Grean", "code": "SS 784", "rgbColor":{"r":0, "g":53, "b":35} },
+				{ "name": "Emerald Green", "code": "14 E 51","rgbColor":{"r":63, "g":131, "b":72} },
+				{ "name": "Jade Green", "code": "14 E 53", "rgbColor":{"r":24, "g":91, "b":73} },
+				{ "name": "Bottle Green", "code": "793", "rgbColor":{"r":14, "g":39, "b":31} },
+				{ "name": "Pacific Blue", "code": "7084", "rgbColor":{"r":69, "g":123, "b":143} },
+				{ "name": "Astral Blue", "code": "18 E 49", "rgbColor":{"r":182, "g":221, "b":218} },
+				{ "name": "New Blue", "code": "20 C 33", "rgbColor":{"r":115, "g":161, "b":198} },
+				{ "name": "Satin Blue", "code": "671", "rgbColor":{"r":103, "g":151, "b":165} },
+				{ "name": "Arctic Blue", "code": "669", "rgbColor":{"r":0, "g":81, "b":40} },
+				{ "name": "High Summer", "code": "20 E 51", "rgbColor":{"r":63, "g":99, "b":163} },
+				{ "name": "Royal Blue", "code": "18 E 53", "rgbColor":{"r":26, "g":58, "b":118} },
+				{ "name": "Navy Blue", "code": "670", "rgbColor":{"r":15, "g":28, "b":52} },
+				{ "name": "Silver Grey", "code": "9093", "rgbColor":{"r":163, "g":171, "b":166} },
+				{ "name": "Neutral", "code": "9094", "rgbColor":{"r":158, "g":163, "b":158} },
+				{ "name": "Dove Grey", "code": "9095", "rgbColor":{"r":102, "g":117, "b":119} },
+				{ "name": "Dark Grey", "code": "9097", "rgbColor":{"r":169, "g":169, "b":169} }			
+			]
+		},{ 
+			"name" : "Emulsion",
+			"colors": [
+				{ "name": "Solt White", "code": "01", "rgbColor":{"r":255, "g":254, "b":228} },
+				{ "name": "Off White", "code": "4046", "rgbColor":{"r": 254, "g":242, "b": 213} },
+				{ "name": "Shadow", "code": "045", "rgbColor":{"r":213, "g": 218, "b": 214} },
+				{ "name": "Magnolia", "code": "08 B 15", "rgbColor":{"r": 253, "g": 236, "b": 208} },
+				{ "name": "Cream", "code": "3040", "rgbColor":{"r":253, "g":238, "b":196} },
+				{ "name": "Apple White", "code": "1801", "rgbColor":{"r":225, "g":254, "b":231} },
+				{ "name": "Frost White", "code": "1809", "rgbColor":{"r":228, "g":242, "b":234} },
+				{ "name": "Shara", "code": "08 C 31", "rgbColor":{"r":255, "g":252, "b":195} },
+				{ "name": "Feathers", "code": "831", "rgbColor":{"r":235, "g":232, "b":232} },
+				{ "name": "Symphony", "code": "469", "rgbColor":{"r":252, "g":224, "b":220} },
+				{ "name": "Lemon Yellow", "code": "2836", "rgbColor":{"r":255, "g":250, "b":154} },
+				{ "name": "Pale Mushroom", "code": "3035", "rgbColor":{"r":223, "g":214, "b": 187} },
+				{ "name": "Beige", "code": "115", "rgbColor":{"r":159, "g":152, "b":143} },
+				{ "name": "Rich Cream", "code": "218", "rgbColor":{"r":207, "g":182, "b":114} },
+				{ "name": "Sunset Coral", "code": "2839", "rgbColor":{"r":246, "g":197, "b":154} },
+				{ "name": "Strawberry", "code": "471", "rgbColor":{"r":240, "g":167, "b":182} },
+				{ "name": "Rose Pink", "code": "1020", "rgbColor":{"r":217, "g":160, "b":163} },
+				{ "name": "Rose", "code": "1021", "rgbColor":{"r":181, "g":126, "b":127} },
+				{ "name": "Tile Red", "code": "1023", "rgbColor":{"r":137, "g":63, "b":71} },
+				{ "name": "Brick Red", "code": "525", "rgbColor":{"r":94, "g":44, "b":49} },
+				{ "name": "Coffee SS", "code": "863", "rgbColor":{"r":140, "g":97, "b":72} },
+				{ "name": "Copper", "code": "353", "rgbColor":{"r":106, "g":68, "b":55} },
+				{ "name": "Rich Brown", "code": "3044", "rgbColor":{"r":72, "g":52, "b":47} },
+				{ "name": "Chocolate", "code": "08 B 29", "rgbColor":{"r":31, "g":27, "b":34} },
+				{ "name": "Blossom", "code": "042","rgbColor":{"r":254, "g":237, "b":231} },
+				{ "name": "Ice Green", "code": "14 C 31", "rgbColor":{"r":225, "g":239, "b":224} },
+				{ "name": "Light Green", "code": "6070", "rgbColor":{"r":141, "g":202, "b":141} },
+				{ "name": "Leaf Green", "code": "6071", "rgbColor":{"r":85, "g":136, "b":78} },
+				{ "name": "Garden", "code": "796", "rgbColor":{"r":42, "g":98, "b":47} },
+				{ "name": "Jade Green", "code": "14 E 53", "rgbColor":{"r":24, "g":91, "b":73} },
+				{ "name": "Sky Blue", "code": "18 C 31", "rgbColor":{"r":221, "g":239, "b":236} },
+				{ "name": "Astral Blue", "code": "18 E 49", "rgbColor":{"r":182, "g":221, "b":218} },
+				{ "name": "New blue", "code": "20 C 33", "rgbColor":{"r":115, "g":161, "b":198} },
+				{ "name": "Light Blue", "code": "1738", "rgbColor":{"r":117, "g":156, "b":166} },
+				{ "name": "Pacific Blue", "code": "7084", "rgbColor":{"r":69, "g":123, "b":143} },
+				{ "name": "High Summer", "code": "20 E 51", "rgbColor":{"r":63, "g":99, "b":163} },
+				{ "name": "Royal Blue", "code": "18 E 53", "rgbColor":{"r":26, "g":58, "b":118} },
+				{ "name": "Brilliant Blue", "code":"0012", "rgbColor":{"r":20, "g":73, "b":127} },
+				{ "name": "Lavender", "code": "02", "rgbColor":{"r":248, "g":247, "b":247} },
+				{ "name": "Lilac", "code": "06", "rgbColor":{"r":182, "g":181, "b":211} },
+				{ "name": "Silver Grey", "code": "9093", "rgbColor":{"r":163, "g":171, "b":166} },
+				{ "name": "Neutral", "code": "9094", "rgbColor":{"r":158, "g":163, "b":158} },
+				{ "name": "Dove Grey", "code": "9095", "rgbColor":{"r":102, "g":117, "b":119} },
+				{ "name": "Dark Grey", "code": "9097", "rgbColor":{"r":169, "g":169, "b":169} }
+			]
+		},{ 
+			"name" : "Texture",
+			"colors": [
+				{ "name": "Brilliant White", "code": "SSN 17-00", "rgbColor":{"r":255, "g":254, "b":244} },
+				{ "name": "Off White", "code": "SSN 17-01", "rgbColor":{"r": 254, "g":242, "b":213} },
+				{ "name": "Silver Stone", "code": "SSN 17-02", "rgbColor":{"r":144, "g": 147, "b":104} },
+				{ "name": "Sand", "code": "SSN 17-03", "rgbColor":{"r": 136, "g": 100, "b":77} },
+				{ "name": "Ivory", "code": "SSN 17-04", "rgbColor":{"r":241, "g":228, "b":173} },
+				{ "name": "Pale Mushroom", "code": "SSN 17-05", "rgbColor":{"r":223, "g":214, "b":187} },
+				{ "name": "Midstonee", "code": "SSN 17-06", "rgbColor":{"r":75, "g":92, "b":72} },
+				{ "name": "Cream", "code": "SSN 17-07", "rgbColor":{"r":253, "g":238, "b":196} },
+				{ "name": "Harmattan Grey", "code": "SSN 17-08", "rgbColor":{"r":100, "g":92, "b":82} },
+				{ "name": "Bamboo", "code": "SSN 17-09", "rgbColor":{"r":166, "g":145, "b":98} },
+				{ "name": "Laterite Red", "code": "SSN 17-10", "rgbColor":{"r":81, "g":48, "b":55} },
+				{ "name": "Coconut Brown", "code": "SSN 17-11", "rgbColor":{"r":86, "g":67, "b":55} },
+				{ "name": "Bottle Green", "code": "SSN 17-14", "rgbColor":{"r":46, "g":68, "b":62} },
+				{ "name": "Oka Maize", "code": "SSN 17-25", "rgbColor":{"r":121, "g":130, "b":74} },
+				{ "name": "Silver Grey", "code": "SSN 17-27", "rgbColor":{"r":184, "g":192, "b":189} },
+				{ "name": "Coral", "code": "SSN 17-28", "rgbColor":{"r":95, "g":56, "b":48} },
+				{ "name": "Ice Grey", "code": "SSN 17-29", "rgbColor":{"r":114, "g":132, "b":134} },
+				{ "name": "Opebi Beige", "code": "SSN 17-30", "rgbColor":{"r":125, "g":112, "b":79} },
+				{ "name": "Banana", "code": "SSN 17-32", "rgbColor":{"r":213, "g":200, "b":166} },
+				{ "name": "Topaz", "code": "SSN 17-32", "rgbColor":{"r":140, "g":125, "b":79} },
+				{ "name": "Peach", "code": "SSN 17-34", "rgbColor":{"r":160, "g":128, "b":88} },
+				{ "name": "Lake", "code": "SSN 17-36", "rgbColor":{"r":88, "g":89, "b":69} },
+				{ "name": "Astral", "code": "SSN 17-38", "rgbColor":{"r":189, "g":216, "b":211} },
+				{ "name": "Vanilla", "code": "SSN 17-40", "rgbColor":{"r":236, "g":234, "b":202} }
+			]
+		}
+	]
+}
+
+
+
+
+
+
+
+
+

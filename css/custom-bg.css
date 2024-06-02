@@ -1,0 +1,63 @@
+.custom-bg1 {
+	background-image: url(../img/bg/bg1.jpg);
+}
+.custom-bg2 {
+	background-image: url(../img/bg/bg2.jpg);
+}
+.custom-bg3 {
+	background-image: url(../img/misc/titlebar.jpg);
+}
+.custom-bg4 {
+	background-image: url(../img/misc/titlebar2.jpg);
+}
+.custom-bg5 {
+	background-image: url(../img/misc/portfolio-titlebar.jpg);
+}
+.custom-bg6 {
+	background-image: url(../img/misc/parallax-bg1.jpg);
+}
+.custom-bg7 {
+	background-image: url(../img/misc/titlebar3.jpg);
+}
+.custom-bg8 {
+	background-image: url(../img/bg/testimonials-bg.jpg);
+}
+.custom-bg9 {
+	background-image: url(../img/misc/titlebar4.jpg);
+}
+.custom-bg10 {
+	background-image: url(../img/misc/titlebar5.jpg);
+}
+.custom-bg11 {
+	background-image: url(../img/misc/titlebar6.jpg);
+}
+.custom-bg12 {
+	background-image: url(../img/bg/testimonials-bg2.jpg);
+}
+.custom-bg13 {
+	background-image: url(../img/misc/app5.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 45.5% !important;
+}
+.custom-bg14 {
+	background-image: url(../img/misc/app6.jpg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 45.5% !important;
+}
+.custom-bg15 {
+	background-image: url(../img/bg/user-bg1.jpg);
+}
+.custom-bg16 {
+	background-image: url(../img/bg/user-bg2.jpg);
+}
+.custom-bg17 {
+	background-image: url(../img/misc/titlebar7.jpg);
+}
+.custom-bg18 {
+	background-image: url(../img/misc/titlebar8.jpg);
+}
+.custom-bg19 {
+	background-image: url(../img/bg/bg-404.jpg);
+}

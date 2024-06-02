@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Untitled</title>
+<style>
+    canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+</style>
+
+</head>
+
+<body>
+
+<script src="js/pixi.min.js"></script>
+
+<script>
+var enabled = true;
+
+
+//extend PIXI.Graphics to modify its _renderWebGL function
+function GraphicsNoBlending() {
+    PIXI.Graphics.call(this);
+}
+GraphicsNoBlending.prototype = Object.create(PIXI.Graphics.prototype);
+GraphicsNoBlending.prototype.constructor = GraphicsNoBlending;
+GraphicsNoBlending.prototype._renderWebGL = function (renderer) {
+
+    //////////////copy-paste from PIXI.Graphics._renderWebGL
+    if (this.glDirty)
+    {
+        this.dirty = true;
+        this.glDirty = false;
+    }
+
+    renderer.setObjectRenderer(renderer.plugins.graphics);
+    //////////////////////////
+
+    var gl = renderer.gl;
+    gl.disable(gl.BLEND);
+    renderer.plugins.graphics.render(this);
+    gl.enable(gl.BLEND);
+};
+
+
+//extend PIXI.Graphics to make it only draw on non-transparent pixels
+function ShadowGraphics() {
+    PIXI.Graphics.call(this);
+}
+ShadowGraphics.prototype = Object.create(PIXI.Graphics.prototype);
+ShadowGraphics.prototype.constructor = ShadowGraphics;
+ShadowGraphics.prototype._renderWebGL = function (renderer) {
+
+    //////////////copy-paste from PIXI.Graphics._renderWebGL
+    if (this.glDirty)
+    {
+        this.dirty = true;
+        this.glDirty = false;
+    }
+
+    renderer.setObjectRenderer(renderer.plugins.graphics);
+    //////////////////////////////////
+
+    var gl = renderer.gl;
+    gl.blendFuncSeparate(gl.ONE, gl.ONE_MINUS_SRC_ALPHA, gl.ZERO, gl.ONE);
+    renderer.plugins.graphics.render(this);
+    gl.blendFunc(gl.ONE, gl.ONE_MINUS_SRC_ALPHA);
+};
+
+PIXI.loader
+    .add('image','images/robot.png')
+    .add('image2','images/image2.fw.png');
+
+PIXI.loader.once('complete', init);
+
+PIXI.loader.load();
+
+function init(loader, resources) {
+    var stage = new PIXI.Container(),
+        renderer = new PIXI.WebGLRenderer(512, 512, {transparent: true}),
+        texture = resources.image.texture,
+        texture2 = resources.image2.texture;
+
+    document.body.appendChild(renderer.view);
+
+    var img = new PIXI.Sprite(texture);
+    stage.addChild(img);/*
+    var img2 = new PIXI.Sprite(texture2);
+    stage.addChild(img2);*/
+
+    var graphics = new GraphicsNoBlending();
+    stage.addChild(graphics);
+    graphics.beginFill(1, 0);
+    graphics.drawRect(200, 100, 100, 100);
+    graphics.endFill();
+
+
+    /*var shadowGraphics = new ShadowGraphics();
+    stage.addChild(shadowGraphics);
+    shadowGraphics.beginFill(0, 0.5);
+    shadowGraphics.drawRect(100, 50, 220, 200);
+    shadowGraphics.endFill();*/
+
+    requestAnimationFrame(update);
+
+    function update() {
+        requestAnimationFrame(update);
+        renderer.render(stage);
+    }
+}
+
+
+</script>
+
+</body>
+</html>
+

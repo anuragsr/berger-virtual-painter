@@ -1,0 +1,480 @@
+.noselect{
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.app-parent{
+	width: 1170px;
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	//background: rgba(128, 128, 128, 0.24);
+	padding: 0;
+}
+.color-contain{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.explore-color-home{
+	background:rgba(128, 128, 128, 0.24);
+}
+.paint-container{
+	height: 700px;
+	text-align: center;
+}
+.no-margin{
+	margin: 0px;
+}
+.intro-container{
+	background: url(../images/intro-bg.png);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.intro-container-in{
+	background: rgba(0,0,0,0.7);
+}
+.intro-container-in img{
+	position: relative;
+	opacity: 0;
+}
+.intro-container-in button{
+	font-weight: bold;
+	box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.6);
+	background: rgba(42, 169, 224, 1);
+    box-sizing: border-box;
+	position: relative;
+	opacity: 0; 
+    padding: 15px;
+    height: 70px;
+	border: none;
+	color: #fff;
+    top: 75px;
+}
+.intro-container-in button:hover{
+	color:rgba(0,0,0,0.7);
+	box-shadow: 0px 0px 10px 5px rgba(255,255,255,0.6);
+}
+img#anim1{
+	top: -200px;
+}
+img#anim2{
+	top: 75px;
+}
+img#anim3{
+	top: -200px;
+	left: -50px;
+}
+.paint-tab-container{
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+}
+.paint-tab{
+	text-align: center;
+	cursor: pointer;
+	font-size:14px;
+	font-weight: bold;
+}
+.paint-tab:hover{
+	background: rgba(42, 169, 224, 1);
+	color: #fff;
+}
+.height-inherit{
+	height: 100%;
+}
+.paint-tab.active{
+	background: rgba(42, 169, 224, 1);
+	color: #fff;
+}
+.start-paint{
+	padding: 0;
+}
+.color-options{
+	height: 100px;
+	border: 1px solid #e7e7e7;
+	margin: 0;
+	padding-top: 5px;
+}
+.col-opt-txt{
+    width: auto;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+.opt-icons{
+	cursor: pointer;
+}
+.opt-icons:hover{
+	color:blue;
+}
+/*
+.col-opt-colors{
+	margin: 0;
+}*/
+
+/**
+ * The dnd-list should always have a min-height,
+ * otherwise you can't drop to it once it's empty
+ */
+.col-opt-colors ul[dnd-list] {
+    min-height: 42px;
+    padding-left: 0px;
+}
+
+/**
+ * The dndDraggingSource class will be applied to
+ * the source element of a drag operation. It makes
+ * sense to hide it to give the user the feeling
+ * that he's actually moving it.
+ */
+.col-opt-colors ul[dnd-list] .dndDraggingSource {
+    display: none;
+}
+
+/**
+ * An element with .dndPlaceholder class will be
+ * added to the dnd-list while the user is dragging
+ * over it.
+ */
+.col-opt-colors ul[dnd-list] .dndPlaceholder {
+    background-color: #ddd;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 42px;
+    width: 15px;
+}
+
+.col-opt-colors ul[dnd-list] li {
+    cursor:pointer;
+	height: 90px;
+	width: 90px;
+    background: white;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/**
+ * Show selected elements in green
+ */
+.col-opt-colors ul[dnd-list] li.selected {
+    color: #000;	
+    width:220px;
+}
+.col-exp-opts{
+	float: right;
+	display: none;
+	font-size: 20px;
+	margin-left: 10px;
+}
+.col-opt-colors ul[dnd-list] li.selected .col-exp-opts {    
+    display: block;
+}
+.col-exp-opts svg{
+	zoom:0.8;
+}
+.color-box{
+	height: 100%;
+    font-weight: bold;
+	font-size: 16px;
+	padding: 10px;
+	line-height: 25px;
+}
+.color-box span{
+	font-weight: normal;
+}
+.toHide{
+	display: none;
+}
+.add-btn-ctn{
+	height: 100%;
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+.add-btn-in{
+	display: table-cell;
+    vertical-align: middle;
+}
+.add-btn-in div{
+	font-weight: bold;
+	font-size: 14px;
+}
+.exp-color{
+	background:rgba(128, 128, 128, 0.24);
+}
+.color-category-tab{
+	cursor: pointer;
+	font-size: 14px;
+	border-bottom: 2px solid rgba(42, 169, 224, 0.3);	
+}
+.color-category-tab:hover{
+	background: #e7e7e7;
+}
+.color-category-tab.active{	
+	border-bottom: 2px solid rgba(42, 169, 224, 1);	
+	border-top: 2px solid rgba(42, 169, 224, 1);	
+	background: #fcfcfc;
+}
+.hist-color-contain{
+	position: relative;
+}
+.color-sm-sq, .color-big-sq{
+	display: inline-block;
+	vertical-align: top;
+}
+.color-picker-info{
+	padding-top: 10px;
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+}
+.color-overlay-sq, .color-overlay-sq-top{
+	z-index:1;
+	width: 100%;
+	position: absolute;
+	left: 0; 
+	background: rgba(0,0,0,0.7);
+	padding: 10px;
+	color:#fff;
+}
+.color-overlay-sq{
+	bottom: 0;
+}
+.color-overlay-sq-top{
+	top: 0;
+	padding:0;
+	padding-top: 5px; 
+}
+.color-overlay-sq-right{
+	width:80px;
+	position: absolute;
+	top:20px;
+	right:20px;
+	z-index: 2;
+}
+.paint-sc-btn{
+	z-index:0;
+	position: relative;
+	font-weight: bold;
+	cursor:pointer;
+	width: 100%;
+	line-height:2;
+	background: #fff;
+	font-size:12px;
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+}
+.paint-sc-btn:hover{
+	z-index:1;
+	color:#fff;
+	background:rgba(42, 169, 224, 1);
+}
+.paint-sc-btn .submenu{	
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.3);
+	background: rgba(255,255,255, 1);
+    visibility: hidden;
+    position: absolute;
+    height: 100px;
+    width: 180px;
+    right: 100%;
+    top: 0px;
+}
+.paint-sc-btn:hover .submenu{
+    visibility: visible;
+}
+.paint-sc-btn.active{
+	color:#fff;
+	background:rgba(42, 169, 224, 1);
+}
+.paint-sc-btn.active-hide{
+	color:#fff;
+	background:rgba(42, 169, 224, 0.3);
+}
+.paint-brush-opt{
+	color:black;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+}
+.paint-br-opt-in{
+	position: relative;
+	border:1px solid black;
+}
+#paint-line{
+	width: 100%;
+	height: 1px;
+	top: 50%;
+	transform: rotateZ(45deg);
+}
+#paint-sq-sm{
+	width: 25px;
+	height: 25px;
+	top:7px;
+	left:7px;
+}
+#paint-sq-lg{
+	width: 40px;
+	height: 40px;
+}
+#paint-circ-sm{
+	height: 14px;
+	width: 14px;
+	border-radius: 40px;
+	top:14px;
+	left:14px;
+}
+#paint-circ-md{
+	height: 27px;
+	width: 27px;
+	border-radius: 40px;
+	top:7px;
+	left:7px;
+}
+#paint-circ-lg{
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+}
+.paint-brush-opt:hover .paint-br-opt-in{
+	border: 3px solid rgba(42, 169, 224, 1);
+}
+.paint-brush-opt.active .paint-br-opt-in{
+	border: 3px solid rgba(42, 169, 224, 1);
+}
+.color-big-sq{
+	height: 190px;
+	width: 180px;
+	margin: 0px;
+	padding-top: 10px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 0;
+}
+.color-sm-sq{
+	position: relative;
+	z-index: 0;
+	cursor:pointer;
+	border: 1px solid white;
+	font-size:4px;
+	margin: 2px;
+	height: 25px;
+	width: 25px;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.4);
+}
+.comp-color{
+	position: relative;
+}
+.comp-color .color-big-sq{
+	margin: 20px;
+	height: 250px;
+	width: 280px;
+}
+.comp-color .color-sm-sq{
+	height: 40px;
+	width: 40px;
+}
+.color-info{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	line-height: 6px;
+	opacity:0;
+	visibility: hidden;
+}
+.color-add{
+	font-size:10px;
+}
+.light-palette .color-big-sq{
+	vertical-align: bottom;
+}
+.paint-scene{
+	background: rgba(128, 128, 128, 0.24);
+}
+.paint-scene-lg{
+	cursor: pointer;
+	margin: 10px;
+	height: 350px;
+	width: 350px;
+	display: inline-block;
+	vertical-align: top;
+	background: white;
+}
+.paint-scene-lg:hover{
+	box-shadow: 0px 0px 10px 0px black;
+}
+.paint-scene-lg:hover .paint-scene-center div{
+	text-shadow: 1px 1px 3px #000000;
+}
+.paint-scene-sm{
+	height: 95%;
+	width: 95%;
+	margin: 2.5% auto;
+	background: #00ff5c;
+	display: table;
+}
+.paint-scene-center{
+	color: white;
+	line-height: 1;
+	font-size: 150px;
+	display: table-cell;
+	vertical-align: middle;
+}
+label.paint-scene-center{
+	cursor: pointer;
+}
+.paint-scene-center div{
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 35px;
+	text-shadow: none;
+}
+.back-btn{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+.carousel-inner{
+	height: 100% !important;
+}
+.carousel-inner button, .back-btn{
+	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+	padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 45px;
+    box-sizing: border-box;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgba(42, 169, 224, 1);
+}
+.bg-gallery img{
+	height: 100% !important;
+	width: 100% !important;
+}
+.alter-canvas{
+	position: absolute;
+	opacity: 0;
+	height: 3600px;
+	width: 600px;
+	margin: 0 auto;	
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.upload-scene canvas, .start-paint canvas{
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: 1;
+}

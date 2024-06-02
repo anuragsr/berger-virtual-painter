@@ -1,0 +1,106 @@
+color variations for light
+
+
+   <!--  <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers1" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div>
+    <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers2" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div>
+    <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers3" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div>
+    <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers4" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div>
+    <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers5" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div>
+    <div class="color-big-sq">
+        <div ng-repeat="c in colorChoosers6" class="color-sm-sq" style="background-color:{{ c.bg }}"></div>
+    </div> -->
+
+    $scope.colorChoosers1 = [];
+    $scope.colorChoosers2 = [];
+    $scope.colorChoosers3 = [];
+    $scope.colorChoosers4 = [];
+    $scope.colorChoosers5 = [];
+    $scope.colorChoosers6 = [];
+    
+      var colorBoxes = 6
+    ,h = 0
+    ,s = 100
+    ,ltns = 85
+    ,l = ltns
+    ;
+
+    //Red Pallete To Dark
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 0;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers1.push({name:"C"+i, bg:tpColor})
+        }
+    }
+
+    //Green Pallete To Dark
+    h = 60, l = ltns;
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 60;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers2.push({name:"C"+i, bg:tpColor})
+        }
+    }
+
+    //Aqua Pallete To Dark
+    h = 120, l = ltns;
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 120;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers3.push({name:"C"+i, bg:tpColor})
+        }
+    }
+
+    //Blue Pallete To Dark
+    h = 180, l = ltns;
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 180;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers4.push({name:"C"+i, bg:tpColor})
+        }
+    }
+
+    //Violet Pallete To Dark
+    h = 240, l = ltns;
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 240;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers5.push({name:"C"+i, bg:tpColor})
+        }
+    }
+
+    //Maroon Pallete To Dark
+    h = 300, l = ltns;
+    for(var i = 1; i <= colorBoxes - 1; i++){        
+        h = 300;
+        l-= 7;
+        for(var j = 1; j <= colorBoxes; j++){
+            h+= 10;       
+            var tpColor = "hsl("+h+","+s+"%,"+l+"%)";
+            $scope.colorChoosers6.push({name:"C"+i, bg:tpColor})
+        }
+    }

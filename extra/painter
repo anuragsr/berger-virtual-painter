@@ -1,0 +1,150 @@
+
+
+Gloss
+Soft White 01	R;255, G;254, B;228
+Off White 4046	R; 254, G;242, B; 213, 
+Shadow 045	R;213, G; 218, B; 214 
+Magnolia 08 B 15	R; 253, G; 236, B; 208
+Cream 3040	R;253, G;238, B;196 
+Sahara 08 C 31	R;255, G;252, B;195
+Lemon Yellow 2836	R;255, G;250, B;154
+Lavender 02	R;248, G;247, B;247
+Lilac 06	R;182, G;181, B;211
+Raw Silk  184	R;240, G;232, B;154
+Rich Cream  218	R;207, G;182, B;114
+Sunset Coral 2839	R;246, G;197, B;154
+Pale Mushroom 3035	R;223, G;214, B; 187
+Beige 115	R;159, G;152, B;143
+Golden Brown 357	R;74, G;37, B;34
+Rose Pink 1020	R;217, G;160, B;163
+Summer Rose 468	R;183, G;110, B;126 
+Signal Red 527	R;117, G;36, B;34
+Post Office Red 0006	R;87 , G;30, B; 34
+Cherry 04 D 45	R;54, G;23, B;26
+Tango 06 E 51	R;184, G; 92, B; 46
+Lemon 185	R; 230, G; 162, B; 0
+Golden Yellow 0003	R;184, G;128, B;39
+Caterpilar  356	R;100, G; 80, B;46
+Light Green 6070	R;141, G;202, B;141
+Leaf Green 6071	R;85, G;136, B;78 
+National Grean SS 784	R;0, G;53, B;35
+Emerald Green 14 E 51	R;63, G;131, B;72
+Jade Green 14 E 53	R;24, G;91, B;73
+Bottle Green 793	R;14, G;39, B;31 
+Pacific Blue 7084	R;69, G;123, B;143
+Astral Blue 18 E 49	R;182, G;221, B;218
+New Blue 20 C 33	R;115, G;161, B;198 
+Satin Blue 671	R;103, G;151, B;165
+Arctic Blue 669	R;0, G;81, B;40
+High Summer 20 E 51	R;63, G;99, B;163
+Royal Blue 18 E 53	R;26, G;58, B;118
+Navy Blue 670	R;15, G;28, B;52
+Silver Grey 9093	R;163, G;171, B;166
+Neutral 9094	R;158, G;163, B;158
+Dove Grey 9095	R;102, G;117, B;119
+Dark Grey 9097	R;102, G;121, B;125
+
+
+Emulsion
+Clinstay, Luxol and Super Star
+
+1.	Solt White  01	R;255, G;254, B;228
+2.	Off White  4046	R; 254, G;242, B; 213
+3.	Shadow   045	R;213, G; 218, B; 214
+4.	Magnolia  08 B 15	R; 253, G; 236, B; 208
+5.	Cream  3040	R;253, G;238, B;196
+6.	Apple White  1801	R;225, G;254, B;231
+7.	Frost White  1809	R;228, G;242, B;234
+8.	Shara  08 C 31	R;255, G;252, B;195
+9.	Feathers  831	R;235, G;232, B;232
+10.	Symphony  469	R;252, G;224, B;220
+11.	Lemon Yellow  2836	R;255, G;250, B;154
+12.	Pale Mushroom 3035	R;223, G;214, B; 187
+13.	Beige 115	R;159, G;152, B;143
+14.	Rich Cream 218	R;207, G;182, B;114
+15.	Sunset Coral 2839	R;246, G;197, B;154
+16.	Strawberry  471	R;240, G;167, B;182
+17.	Rose Pink  1020	R;217, G;160, B;163
+18.	Rose  1021	R;181, G;126, B;127
+19.	Tile Red  1023	R;137, G;63, B;71
+20.	Brick Red  525	R;94, G;44, B;49
+21.	Coffee SS  863	R;140, G;97, B;72
+22.	Copper  353	R;106, G;68, B;55
+23.	Rich Brown  3044	R;72, G;52, B;47
+24	Chocolate  08 B 29	R;31, G;27, B;34
+25.	Blossom   042	R;254, G;237, B;231
+26.	Ice Green  14 C 31	R;225, G;239, B;224
+27.	Light Green  6070	R;141, G;202, B;141
+28.	Leaf Green  6071	R;85, G;136, B;78
+29.	Garden   796	R;42, G;98, B;47
+30.	Jade Green  14 E 53	R;24, G;91, B;73
+31.	Sky Blue  18 C 31	R;221, G;239, B;236
+32.	Astral Blue  18 E 49	R;182, G;221, B;218
+33.	New blue  20 C 33	R;115, G;161, B;198
+34.	Light Blue  1738	R;117, G;156, B;166
+35.	Pacific Blue  7084	R;69, G;123, B;143
+36.	High Summer  20E 51	R;63, G;99, B;163
+37.	Royal Blue  18 E 53	R;26, G;58, B;118
+38.	Brilliant Blue  0012	R;20, G;73, B;127
+39.	Lavender  02	R;248, G;247, B;247
+40.	Lilac  06	R;182, G;181, B;211
+41.	Silver Grey  9093	R;163, G;171, B;166
+42.	Neutral  9094	R;158, G;163, B;158
+43.	Dove Grey  9095	R;102, G;117, B;119
+44.	Dark Grey  9097	R;169, G;169, B;169
+
+
+Texture/Supertex
+
+SN Color RGB Code
+1. Brilliant White SSN 17-00
+R255, G254,B244
+2. Off White SSN 17-01
+R254, G242, B213
+3. Silver Stone SSN 17-02
+R144, G147, B104 
+4. Sand SSN 17-03
+R136, G100, B77 
+5. Ivory SSN 17-04
+R241, G228, B173 
+6. Pale Mushroom SSN 17-05
+R223, G214, B187 
+7. Midstone SSN 17-06
+R75, G92, B72
+8. Cream SSN 17-07
+R253, G238, B196 
+9. Harmattan Grey SSN 17-08
+R100, G92, B82
+10. Bamboo SSN 17-09
+R166, G145, B98 
+11. Laterite Red SSN 17-10
+R81, G48, B55 
+12. Coconut Brown SSN 17-11
+R86, G67, B55
+13. Bottle Green SSN 17-14
+R46, G68, B62
+14. Oka Maize SSN 17-25
+R121, G130, B74
+15. Silver Grey SSN 17-27
+R184, G192, B189
+16. Coral SSN 17-28
+R95, G56, B48 
+17 Ice Grey SSN 17-29
+R114, G132, B134
+18. Opebi Beige SSN 17-30
+R125, G112, B79 
+19. Banana  SSN 17-32
+R213, G200, B166 
+20. Topaz SSN 17-32
+R140, G125, B79
+21. Peach SSN 17-34
+R160, G128, B88 
+22. Lake SSN 17-36
+R88, G89, B69 
+23. Astral SSN 17-38
+R189, G216, B211
+24. Vanilla SSN 17-40
+R236, G234, B202 
+  
+
+ 
